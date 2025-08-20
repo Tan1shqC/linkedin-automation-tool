@@ -83,7 +83,7 @@ def main() -> None:
 
         browser.sleep(10)  # avoid triggering bot detection
 
-    print("now ending browser session")
+    print("browser session ending")
     browser.quit()
 
 if __name__ == "__main__":
